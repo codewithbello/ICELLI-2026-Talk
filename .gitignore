@@ -1,0 +1,41 @@
+# ==============================================================================
+# Git Ignore Configuration for ICELLI 2026 Space Physics Tutorial
+# ==============================================================================
+
+# Python & Jupyter cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Large unused dataset files & generated outputs
+# *.netcdf
+*.nc
+cggn_2014_combined_tec.csv
+output.csv
+
+# Scratch scripts & temporary notes (not used in main tutorial notebooks)
+ionospheric.py
+main.ipynb
+main.py
+mag_main.py
+tec_main.py
+iono_main.py
+
+
+
+note.md
+note2.md
+command.md
+
+# OS & Editor temporary files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
